@@ -10,4 +10,4 @@ sys.path.insert(
 
 def test_add():
     result = add(2, 3)
-    assert result == 6  # nosec
+    assert result == 5  # nosec
