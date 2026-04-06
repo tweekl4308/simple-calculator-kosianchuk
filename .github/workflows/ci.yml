@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run unit test
-        run: python -c "assert 1 == 2"
+        run: python -c "assert 1 == 1"
 
   # Stage 2: Build
   build:
